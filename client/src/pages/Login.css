@@ -1,0 +1,36 @@
+.form-container{
+    /* background-color: orange; */
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.form-container h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.form-container form{
+    max-width: 400px;
+    /* background-color: blue; */
+    margin: auto;
+    margin-top: 1.5rem;
+}
+.form-container form input{
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    margin-top: 0.3rem;
+}
+.form-container form button{
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 0.3rem;
+    outline: none;
+    border: none;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    cursor: pointer;
+}

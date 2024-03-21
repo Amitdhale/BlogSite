@@ -1,0 +1,41 @@
+.blogpost-container{
+    padding: 1rem;
+}
+.blogpost-container h4{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+.form-details form label{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.form-details form input{
+    /* background-color: aquamarine; */
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.form-details .btn button{
+    width: 100%;
+    padding: 0.5rem;
+    color: white;
+    background-color: rgb(106, 100, 100);
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (min-width : 878px) {
+    .form-details form{
+        width: 80%;
+        margin: auto;
+    }
+}
